@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    margin: 2px auto;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown.more{
+    display: block;
+}
